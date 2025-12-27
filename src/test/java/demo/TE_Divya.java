@@ -1,11 +1,11 @@
 package demo;
 
+import org.testng.annotations.Test;
+
 public class TE_Divya {
 	
-	public static void main(String[] args) {
-		
-		
-		System.out.println("created class for script");
+	@Test
+	public void createClass() {
+		System.out.println("used annotation");
 	}
-
 }
